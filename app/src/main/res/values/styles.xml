@@ -10,13 +10,21 @@
 
     <style name="VideoCall"/>
 
-    <style name="VideoCall.SmallButton" parent="@style/Widget.AppCompat.Button.Borderless">
-        <item name="android:layout_width">48dp</item>
-        <item name="android:layout_height">48dp</item>
+    <style name="VideoCall.BorderlessButton" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:layout_margin">10dp</item>
         <item name="android:focusable">false</item>
         <item name="android:textOff"/>
         <item name="android:textOn"/>
+    </style>
+
+    <style name="VideoCall.SmallButton" parent="VideoCall.BorderlessButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="VideoCall.LargeButton" parent="VideoCall.BorderlessButton">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
     </style>
 
 </resources>

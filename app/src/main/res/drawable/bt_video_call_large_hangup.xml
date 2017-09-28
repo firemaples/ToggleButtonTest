@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/VideoCall_Red"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ripple_oval_drawable_light"/>
+    <item
+        android:bottom="@dimen/VideoCall_LargeButton_IconPadding"
+        android:drawable="@mipmap/ic_calling_decline_24"
+        android:left="@dimen/VideoCall_LargeButton_IconPadding"
+        android:right="@dimen/VideoCall_LargeButton_IconPadding"
+        android:top="@dimen/VideoCall_LargeButton_IconPadding"/>
+</layer-list>
