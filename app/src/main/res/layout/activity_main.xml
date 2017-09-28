@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="io.github.firemaples.togglebuttontest.MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        style="@style/VideoCallSmallIcon"
+        android:background="@drawable/bt_drawable_cam_close"/>
+
+    <ToggleButton
+        android:id="@+id/toggleChecked"
+        style="@style/VideoCallSmallIcon"
+        android:background="@drawable/bt_drawable_cam_close"
+        android:checked="true"/>
+
+    <ToggleButton
+        android:id="@+id/toggleDisabled"
+        style="@style/VideoCallSmallIcon"
+        android:background="@drawable/bt_drawable_cam_close"
+        android:enabled="false"/>
+
+</LinearLayout>

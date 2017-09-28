@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_enabled="true">
+        <layer-list>
+            <item android:drawable="@drawable/video_call_small_button"/>
+            <item android:bottom="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:drawable="@drawable/ic_calling_cam_close_dark_24"
+                  android:left="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:right="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:top="@dimen/videoCall_Active_BottomButton_IconPadding"/>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="true">
+        <layer-list>
+            <item android:drawable="@drawable/video_call_small_button"/>
+            <item android:bottom="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:drawable="@drawable/ic_calling_cam_close_24"
+                  android:left="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:right="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:top="@dimen/videoCall_Active_BottomButton_IconPadding"/>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:drawable="@drawable/video_call_small_button"/>
+            <item android:bottom="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:drawable="@drawable/ic_calling_switch_disable"
+                  android:left="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:right="@dimen/videoCall_Active_BottomButton_IconPadding"
+                  android:top="@dimen/videoCall_Active_BottomButton_IconPadding"/>
+        </layer-list>
+    </item>
+</selector>
