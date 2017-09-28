@@ -6,23 +6,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eee"
+    android:orientation="vertical"
     tools:context="io.github.firemaples.togglebuttontest.MainActivity">
 
-    <ToggleButton
-        android:id="@+id/toggle"
-        style="@style/VideoCallSmallIcon"
-        android:background="@drawable/bt_drawable_cam_close"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <ToggleButton
-        android:id="@+id/toggleChecked"
-        style="@style/VideoCallSmallIcon"
-        android:background="@drawable/bt_drawable_cam_close"
-        android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/toggle"
+            style="@style/VideoCall.SmallButton"
+            android:background="@drawable/bt_video_call_cam_close"/>
 
-    <ToggleButton
-        android:id="@+id/toggleDisabled"
-        style="@style/VideoCallSmallIcon"
-        android:background="@drawable/bt_drawable_cam_close"
-        android:enabled="false"/>
+        <ToggleButton
+            android:id="@+id/toggleChecked"
+            style="@style/VideoCall.SmallButton"
+            android:background="@drawable/bt_video_call_cam_close"
+            android:checked="true"/>
+
+        <ToggleButton
+            android:id="@+id/toggleDisabled"
+            style="@style/VideoCall.SmallButton"
+            android:background="@drawable/bt_video_call_cam_close"
+            android:enabled="false"/>
+
+        <ImageButton
+            style="@style/VideoCall.SmallButton"
+            android:background="@drawable/bt_video_call_hangup"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
 
 </LinearLayout>

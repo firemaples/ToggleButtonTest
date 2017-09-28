@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="videoCall_Active_BottomButton_IconPadding">12dp</dimen>
+    <dimen name="VideoCall_SmallButton_IconPadding">12dp</dimen>
 
 </resources>

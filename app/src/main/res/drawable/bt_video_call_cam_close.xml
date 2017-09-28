@@ -2,10 +2,10 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/video_call_small_button"/>
     <item
-        android:bottom="@dimen/videoCall_Active_BottomButton_IconPadding"
-        android:left="@dimen/videoCall_Active_BottomButton_IconPadding"
-        android:right="@dimen/videoCall_Active_BottomButton_IconPadding"
-        android:top="@dimen/videoCall_Active_BottomButton_IconPadding">
+        android:bottom="@dimen/VideoCall_SmallButton_IconPadding"
+        android:left="@dimen/VideoCall_SmallButton_IconPadding"
+        android:right="@dimen/VideoCall_SmallButton_IconPadding"
+        android:top="@dimen/VideoCall_SmallButton_IconPadding">
         <selector>
             <item
                 android:state_checked="false"

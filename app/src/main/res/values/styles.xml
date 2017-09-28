@@ -8,7 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="VideoCallSmallIcon" parent="@style/Widget.AppCompat.Button.Borderless">
+    <style name="VideoCall"/>
+
+    <style name="VideoCall.SmallButton" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:layout_width">48dp</item>
         <item name="android:layout_height">48dp</item>
         <item name="android:layout_margin">10dp</item>
