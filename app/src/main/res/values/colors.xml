@@ -7,5 +7,7 @@
     <color name="VideoCall_Active_BottomButton_EnableBGColor">@android:color/white</color>
     <color name="VideoCall_Active_BottomButton_DisableBorderColor">#19000000</color>
 
+    <!-- Pressed Effect Colors -->
+    <color name="pressedEffectColor_light">#70ffffff</color>
     <color name="pressedEffectColor_dark">#33000000</color>
 </resources>

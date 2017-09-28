@@ -10,15 +10,15 @@
             <item
                 android:state_checked="false"
                 android:state_enabled="true">
-                <bitmap android:src="@drawable/ic_calling_cam_close_dark_24"/>
+                <bitmap android:src="@mipmap/ic_calling_cam_close_dark_24"/>
             </item>
             <item
                 android:state_checked="true"
                 android:state_enabled="true">
-                <bitmap android:src="@drawable/ic_calling_cam_close_24"/>
+                <bitmap android:src="@mipmap/ic_calling_cam_close_24"/>
             </item>
             <item android:state_enabled="false">
-                <bitmap android:src="@drawable/ic_calling_switch_disable"/>
+                <bitmap android:src="@mipmap/ic_calling_switch_disable"/>
             </item>
         </selector>
     </item>
