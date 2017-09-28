@@ -47,6 +47,10 @@
 
         <ImageButton
             style="@style/VideoCall.LargeButton"
+            android:background="@drawable/bt_video_call_large_accept_disable_camera"/>
+
+        <ImageButton
+            style="@style/VideoCall.LargeButton"
             android:background="@drawable/bt_video_call_large_accept"/>
 
     </LinearLayout>
